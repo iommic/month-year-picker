@@ -94,7 +94,7 @@ class MonthPickerState extends State<MonthPicker> {
     return GridView.count(
       physics: const NeverScrollableScrollPhysics(),
       padding: const EdgeInsets.all(8.0),
-      crossAxisCount: 4,
+      crossAxisCount: 3,
       children: [
         for (var i = 0; i < 12; i++)
           _MonthButton(
